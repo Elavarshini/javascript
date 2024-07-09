@@ -9,6 +9,10 @@ score = score + 50;
 console.log("New score: " + score);
 
 console.log("Way to go!");
+console.log("The player splats a kumquat.");
+score=score+100;
+console.log("new score: " + score);
+console.log("congratulations!!!");
 
 
 
