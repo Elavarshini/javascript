@@ -3,13 +3,20 @@
 var book;
 
 book = {
-    title : "The Hobbit",
-    author : "J. R. R. Tolkien",
-    published : 1937
+     title : "The Hobbit, or There and Back Again",
+     author : "J. R. R. Tolkien",
+     published : 1937
+};
+var book2;
+
+book2 = {
+     title: "1984",
+     author: "George Orwell",
+     published: 1949
 };
 
 console.log(book);
-
+console.log(book2);
 
 
 /* Further Adventures
