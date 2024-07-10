@@ -3,14 +3,19 @@
 var sayHello;
 
 sayHello = function () {
-	console.log("Hello World!");
+	console.log("Hello \nWorld!");
 };
 
 sayHello();
 sayHello();
 sayHello();
-
-
+function print(){
+	var msg="helloworld";
+	for(let i=0;i<msg.length;i++){
+		console.log(msg[i]);
+	}
+}
+print();
 
 /* Further Adventures
  *

@@ -41,6 +41,49 @@ showMovieInfo();
 movie = movie3;
 showMovieInfo();
 
+var Question;
+var Question1;
+var Question2;
+var Question3; 
+var showQuestion;
+ Question1 = {
+    question: "What is the capital of France?",
+    options: ["A: Berlin", "B: Madrid", "C: Paris", "D: Rome"],
+    correctAnswer: "C: Paris"
+};
+
+Question2 = {
+    question: "Which planet is known as the Red Planet?",
+    options: ["A: Earth", "B: Mars", "C: Jupiter", "D: Venus"],
+    correctAnswer: "B: Mars"
+};
+
+Question3 = {
+    question: "What is the largest ocean on Earth?",
+    options: ["A: Atlantic Ocean", "B: Indian Ocean", "C: Arctic Ocean", "D: Pacific Ocean"],
+    correctAnswer: "D: Pacific Ocean"
+};
+showQuestion = function (quizQuestion) {
+    console.log("Question: " + quizQuestion.question);
+    console.log("------------------------------");
+    for (var i = 0; i < quizQuestion.options.length; i++) {
+        console.log(quizQuestion.options[i]);
+    }
+    console.log("------------------------------");
+    console.log("Correct Answer: " + quizQuestion.correctAnswer);
+    console.log("------------------------------");
+};
+
+var quizQuestion;
+
+quizQuestion = Question1;
+showQuestion(quizQuestion);
+
+quizQuestion = Question2;
+showQuestion(quizQuestion);
+
+quizQuestion = Question3;
+showQuestion(quizQuestion);
 
 
 /* Further Adventures

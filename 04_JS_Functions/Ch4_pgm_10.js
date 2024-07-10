@@ -9,7 +9,10 @@ movie1 = {
     actors: "Amy Poehler, Bill Hader",
     directors: "Pete Doctor, Ronaldo Del Carmen"
 };
-
+var movie2={
+  title: "Toy Story",
+  actors: "Tom Hanks, Tim Allen",
+  directors: "John Lasseter"};
 showMovieInfo = function () {
   console.log("Movie information for " + movie.title);
   console.log("------------------------------");
@@ -17,8 +20,7 @@ showMovieInfo = function () {
   console.log("Directors: " + movie.directors);
   console.log("------------------------------");
 };
-
-movie = movie1;
+movie = movie2;
 
 showMovieInfo();
 
