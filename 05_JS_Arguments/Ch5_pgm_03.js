@@ -3,10 +3,14 @@
 var showMessage;
 
 showMessage = function (message) {
-	console.log("The message is: " + message);
+	console.log("The message is: " + message + "Keep smiling!!");
 };
 
-showMessage("It's full of stars!");
+showMessage("have a nice day!!!!");
+showMessage("be happy!!!");
+showMessage("lovely day!!!");
+
+
 
 
 
