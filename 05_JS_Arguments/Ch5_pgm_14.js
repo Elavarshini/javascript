@@ -1,7 +1,19 @@
 // Displaying a player's information using properties
 
+var showLine = function (length) {
+    var line = "**********************************"; // A long string of asterisks
+    console.log(line.substring(0, length));
+};
+
+var showBlankLine = function () {
+    console.log("");
+};
+
 var showPlayerName = function (playerName) {
-    console.log(playerName);
+    var lineLength = playerName.length + 4;
+    showLine(lineLength);
+    console.log("* " + playerName + " *");
+    showLine(lineLength);
 };
 
 var showPlayerHealth = function (playerName, playerHealth) {
@@ -13,17 +25,17 @@ var showPlayerPlace = function (playerName, playerPlace) {
 };
 
 var showPlayerInfo = function (playerName, playerPlace, playerHealth) {
-    console.log("");
+    showBlankLine();
 
     showPlayerName(playerName);
 
-    console.log("----------------------------");
+    showLine(28);
 
     showPlayerPlace(playerName, playerPlace);
     showPlayerHealth(playerName, playerHealth);
 
-    console.log("----------------------------");
-    console.log("");
+    showLine(28);
+    showBlankLine();
 };
 
 var player1 = {

@@ -5,6 +5,9 @@ var player2;
 var showPlayerName;
 
 showPlayerName = function (playerName) {
+    playerName = playerName.toUpperCase();
+    console.log(playerName);
+    playerName = playerName.toLowerCase();
     console.log(playerName);
 };
 
