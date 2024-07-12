@@ -20,8 +20,12 @@ sum = function (number1, number2) {
 totalCost = function (callOutCharge, costPerHour, numberOfHours) {
     return callOutCharge + costPerHour * numberOfHours;
 };
-
-
+getHelloTo("mythu");
+getHelloTo("maxie");
+sum(3,7);
+sum (45,87);
+totalCost(20,11,12);
+totalCost(65,23,24);
 
 /* Further Adventures
  *

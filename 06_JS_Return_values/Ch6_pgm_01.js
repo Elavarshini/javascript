@@ -2,14 +2,18 @@
 
 var getMessage;
 var response;
+var getMyMessage
 
 getMessage = function () {
     return "I’m going on an adventure!";
 };
-
+getMyMessage=function(){
+    return "let's get strated!!!"
+}
 response = getMessage();
 
 console.log(response);
+console.log(getMyMessage());
 
 
 

@@ -23,21 +23,19 @@ displaySale = function () {
   console.log("tax @ " + sale.taxRate + "% = $" + sale.tax);
   console.log("total cost = $" + sale.total);
 };
+display=function(sale){
+  calculateTax(sale);
+displaySale(sale);
 
+};
 sale = sale1;
-calculateTax();
-displaySale();
-
+display(sale);
 sale = sale2;
-calculateTax();
-displaySale();
-
+display(sale);
 sale = sale3;
-calculateTax();
-displaySale();
+display(sale);
 sale = sale4;
-calculateTax();
-displaySale();
+display(sale);
 
 
 /* Further Adventures

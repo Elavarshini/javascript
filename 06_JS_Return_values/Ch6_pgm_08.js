@@ -14,8 +14,14 @@ getPlayerPlace = function (playerName, playerPlace) {
 console.log(getPlayerHealth("Kandra", 50));
 console.log(getPlayerPlace("Kandra", "The Dungeon of Doom"));
 
-
-
+var showPlayerInfo;
+showPlayerInfo=function(playerName,playerHealth,playerPlace){
+    var healthInfo = getPlayerHealth(playerName, playerHealth);
+    var placeInfo = getPlayerPlace(playerName, playerPlace);
+    console.log(healthInfo);
+    console.log(placeInfo);
+};
+showPlayerInfo("Dax", 50, "The Bath");
 /* Further Adventures
  *
  * 1) Create a showPlayerInfo function with three
